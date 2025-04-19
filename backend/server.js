@@ -3,7 +3,7 @@
 import express from 'express';
 
 const app = express(); //* call express function to create an instance of express
-dotenv.config();
+dotenv.config(); //* load environment variables from .env file
 
 app.get("/products", (req, res) => { 
   res.send("Server is Ready");
@@ -15,4 +15,4 @@ app.listen(5000, () => {
 
 //* Ze8AFppuTRUOf8MG
 
-console.log(proess.env.MONGO_URI);
+console.log(process.env.MONGO_URI);
