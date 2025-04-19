@@ -7,7 +7,7 @@ import dotenv from 'dotenv'; //* import dotenv to load environment variables fro
 const app = express(); //* call express function to create an instance of express
 dotenv.config(); //* load environment variables from .env file
 
-app.get("/products", (req, res) => {})
+app.post("/products", (req, res) => {}) //* if you want visit use post (routing)
 
 app.listen(5000, () => {
     connectDB(); //* connect to the database
