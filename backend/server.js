@@ -13,3 +13,7 @@ app.listen(5000, () => {
     connectDB(); //* connect to the database
     console.log('Server started at http://localhost:5000');
 })
+
+
+// ? Application Programming Interface (API) or (Man in the Middle).
+//? get, post, put, delete - is a set of rules and protocols for building and interacting with software applications. It defines the methods and data formats that applications can use to communicate with each other.
