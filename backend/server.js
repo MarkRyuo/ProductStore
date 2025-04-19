@@ -8,7 +8,7 @@ import Product from './models/product.model.js';
 const app = express(); //* call express function to create an instance of express
 dotenv.config(); //* load environment variables from .env file
 
-app.use(express.json()); //* allows us to accept JSON data in the body
+app.use(express.json()); //* allows us to accept JSON data in the body (middleware)
 
 app.post("/api/products", async (req, res) => {
   const product = req.body; //* user will send this data 
