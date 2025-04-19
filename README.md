@@ -10,3 +10,5 @@
   - mongoose : Interact in database(MongoDB)
   - dotenv : access environment variables
 
+-$ npm i nodemon -D : 
+   - -D : devDependencies
